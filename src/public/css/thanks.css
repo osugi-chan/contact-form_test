@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+body {
+    width: 1512px;
+    height: 982px;
+    background: #FFFFFF;
+}
+
+.background-text {
+    position: absolute;
+    width: 1381px;
+    height: 365px;
+    left: 66px;
+    top: 319px;
+
+    font-family: 'Inika',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 280px;
+    line-height: 365px;
+    color: rgba(139, 121, 105, 0.05);
+}
+
+.container__items h3 {
+    position: absolute;
+    width: 510px;
+    height: 39px;
+    left: 501px;
+    top: 461px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #8B7969;
+}
+
+.home-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 40px;
+    gap: 10px;
+    position: absolute;
+    width: 140px;
+    height: 46px;
+    left: 686px;
+    top: 555px;
+    background: #82756A;
+}
+
+.home-button__item {
+    width: 60px;
+    height: 26px;
+    font-family: 'Inika',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

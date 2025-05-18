@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+.container {
+    position: relative;
+    width: 1512px;
+    height: 982px;
+    background: #FFFFFF;
+}
+
+.header-inner h1 {
+    width: 1512px;
+    height: 100px;
+    font-family: Inika,serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(139, 121, 105, 1);
+    border-bottom: 1px solid #C5B9B0;
+    background-color: #fff;
+}
+
+.confirm-title h2 {
+    position: absolute;
+    width: 100%;
+    height: 43px;
+    left: 694px;
+    top: 150px;
+
+    font-family: 'Inika',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #8B7969;
+}
+
+.confirm__contact__item {
+    box-sizing: border-box;
+    position: absolute;
+    width: 972px;
+    height: 606px;
+    left: 273px;
+    top: 247px;
+}
+
+.confirm-table {
+    border: 1px solid rgba(224, 223, 222, 1);
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 305px;
+    height: 69.92px;
+    border-bottom: 1px solid rgba(224, 223, 222, 1);
+    background: rgba(186, 168, 153, 1);
+
+    font-family: Inika,serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.confirm-table__text {
+  padding: 15px;
+  border-bottom: 1px solid rgba(224, 223, 222, 1);
+}
+
+.form__button-submit {
+    width: 120px;
+    height: 46px;
+    left: 696px;
+    top: 800px;
+    background: #82756A;
+    border: 1px solid #82756A;
+    font-family: Inika,serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form__button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.confirm-table__text-input {
+    width: 100%;
+    height: 24px;
+    font-family: Inika,serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%; 
+    letter-spacing: 0%;
+    color: rgba(139, 121, 105, 1);
+    border: none !important;
+    outline: none; 
+    background: transparent;
+    appearance: none; 
+    -webkit-appearance: none; 
+}
+
+

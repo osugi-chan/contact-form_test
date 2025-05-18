@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+.container {
+    position: relative;
+    width: 1512px;
+    height: 982px;
+    background: #F1ECE7;
+}
+
+.header-inner h1 {
+    width: 1512px;
+    height: 100px;
+    font-family: Inika,serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(139, 121, 105, 1);
+    border-bottom: 1px solid #C5B9B0;
+    background-color: #fff;
+}
+
+.header-login {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    top: 33px;
+    left: 1316px;
+    border : 1px solid rgba(217, 198, 181, 1);
+}
+
+.header-login__item {
+    width: 98px;
+    height: 32px;
+    top: 34px;
+    left: 1317px;
+    font-family: Inika,serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    background: rgba(240, 240, 240, 0.6);
+
+}
+main h2 {
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    left: 710px;
+    top: 162px;
+
+    font-family: 'Inika',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px; /* ボックスの高さと同一 */
+    color: #8B7969;
+}
+.register-form  {
+    box-sizing: border-box;
+    position: absolute;
+    width: 736px;
+    height: 579px;
+    left: 388px;
+    top: 264px;
+    background: #FFFFFF;
+    border: 1px solid #C5B9B0;
+    border-radius: 10px;
+}
+
+.register-form__content {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register-form__content-item {
+    margin: 0 auto;
+    width: 445px;
+    height: 102px;
+    top: 362px;
+    left: 534px;
+
+}
+
+.register-form__content-item label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    width: 100%;
+    height: 33px;
+}
+
+.register-form__content label p {
+    font-family: Inika;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(139, 121, 105, 1);
+}
+
+.register-form__content-item input {
+    width: 445px;
+    top: 47px;
+    height: 55px;
+    padding: 10px;
+    background: rgba(244, 244, 244, 1);
+    box-sizing: border-box;
+    border: 1px solid rgba(244, 244, 244, 1);
+}
+
+.form-button {
+    width: 120px;
+    height: 46px;
+    left: 696px;
+    top: 800px;
+    background: #82756A;
+    border: 1px solid #82756A;
+    font-family: Inika,serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form__error p {
+    color: red;
+    box-sizing: border-box;
+}
